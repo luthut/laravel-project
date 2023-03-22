@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
+Route::get('/tes-1', function () {
     return view('halaman-test');
+});
+
+Route::get('/tes-2', function () {
+    return view('halaman-test-2',["nama"=>'Luth']);
 });
